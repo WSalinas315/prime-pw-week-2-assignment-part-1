@@ -19,16 +19,19 @@ console.log('My name is', fullName + ', and I think', luckyNumber, 'is a winner!
 let adventurous = true;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food = 'Chicken Shahi Korma';
-// Console log to use the food variable
 console.log('I think that', food, 'is yummy yummy!');
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets = 1;
+console.log('Number of pets I have:', pets);
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 3;
+let friendsPets = 4;
+console.log('My friend has', friendsPets, 'pets.');
 // 11 - Add two pets to your `pets` variable
 pets += 2;
+console.log('Now I have', pets, 'pets.');
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 14;
+console.log('Only', allowedPets, 'pets are allowed.');
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
 if(adventurous == true){
@@ -95,4 +98,3 @@ switch(luckyNumber){
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 let result = (adventurous == true) ? "Adventures are great!" : "How about we stay home?";
 console.log('Ternary output:', result);
-
